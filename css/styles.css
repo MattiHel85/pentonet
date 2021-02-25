@@ -1,5 +1,6 @@
-.container-fluid {
+.container-fluid#banner {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://source.unsplash.com/1600x900/?sailor');
+    height: 750px;
 }
 
 h1 {
@@ -15,4 +16,32 @@ div.container h2 {
 
 div.container p {
     color: white;
+    line-height: 2;
+}
+
+.container-fluid#about {
+    height: 900px;
+}
+
+#inshort {
+    background-color: white;
+    padding: 2rem;
+}
+
+.container-fluid#about h2 {
+    color: black;
+}
+.container-fluid#about p {
+    font-size: 20px;
+    color: black;
+    line-height: 2;
+}
+
+span {
+    width: 20px;
+    border-bottom: 2px solid black;
+}
+
+iframe {
+    border-style: none;
 }
