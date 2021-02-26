@@ -1,15 +1,16 @@
-.container-fluid#banner {
+.container-fluid.banner {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://source.unsplash.com/1600x900/?sailor');
-    height: 750px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
 }
 
 h1 {
     text-transform: uppercase;
-    font-weight: 800;
     color: white;
 }
 div.container h2 {
-    /* text-transform: uppercase; */
     font-weight: 700;
     color: white;
 }
@@ -20,12 +21,13 @@ div.container p {
 }
 
 .container-fluid#about {
-    height: 900px;
+    height: auto;
 }
 
 #inshort {
     background-color: white;
     padding: 2rem;
+    /* width: 500px; */
 }
 
 .container-fluid#about h2 {
@@ -39,9 +41,28 @@ div.container p {
 
 span {
     width: 20px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid grey;
 }
 
 iframe {
     border-style: none;
+}
+
+div#random p {
+    color: black;
+    line-height: 2;
+}
+
+div#discover p {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        text-align: center;
+    }
 }
