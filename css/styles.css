@@ -65,4 +65,8 @@ div#discover p {
     h2 {
         text-align: center;
     }
+
+    .mobile-h2 {
+        font-size: 3rem;
+    }
 }
